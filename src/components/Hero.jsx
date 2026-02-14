@@ -83,7 +83,7 @@ const Hero = () => {
               {/* Main image container */}
               <div className="relative aspect-square rounded-full overflow-hidden shadow-elegant bg-gradient-to-br from-nude-200 to-blush-100">
                 <img 
-                  src="/main.jpeg" 
+                  src={`${import.meta.env.BASE_URL}main.jpeg`} 
                   alt="Siddhi - Professional Makeup Artist" 
                   className="w-full h-full object-cover"
                 />

@@ -41,7 +41,7 @@ const About = () => {
             <div className="absolute -top-2 -right-2 w-full h-full border-2 border-blush-300 rounded-3xl -z-10"></div>
             <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-elegant bg-gradient-to-br from-blush-100 to-nude-200">
               <img 
-                src="/about me/1.jpeg" 
+                src={`${import.meta.env.BASE_URL}about me/1.jpeg`} 
                 alt="Siddhi - Professional Makeup Artist" 
                 className="w-full h-full object-cover"
               />
@@ -99,7 +99,7 @@ const About = () => {
             <div className="absolute -bottom-2 -left-2 w-full h-full border-2 border-gold-300 rounded-3xl -z-10"></div>
             <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-elegant bg-gradient-to-br from-gold-100 to-blush-100">
               <img 
-                src="/about me/2.jpeg" 
+                src={`${import.meta.env.BASE_URL}about me/2.jpeg`} 
                 alt="Siddhi's Professional Training" 
                 className="w-full h-full object-cover"
               />
@@ -116,7 +116,7 @@ const About = () => {
           >
             <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-elegant bg-gradient-to-br from-nude-200 to-blush-100 transform hover:scale-[1.02] transition-transform duration-500">
               <img 
-                src="/about me/3.jpeg" 
+                src={`${import.meta.env.BASE_URL}about me/3.jpeg`} 
                 alt="Siddhi's Client Work" 
                 className="w-full h-full object-cover"
               />
